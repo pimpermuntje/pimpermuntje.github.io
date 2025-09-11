@@ -19,7 +19,7 @@ ul li a {
   display: block;
   color: rgb(116, 209, 255);
   text-align: center;
-  padding: 14 16;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
