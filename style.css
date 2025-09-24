@@ -30,3 +30,11 @@ ul li a:hover {
 #Binair {
 text-align: center;
 }
+
+#Kleurmodellen {
+  background-image: url("Plaatjes/CMYK-kleurmodel.webp");
+  background-size: cover; /*zorgt ervoor dat het hele gevuld wordt met het plaatje*/
+  background-position: center; /*centreert de positie van de afbeelding*/
+  background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
+  background-attachment: fixed;
+}
