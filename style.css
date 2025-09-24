@@ -29,6 +29,11 @@ ul li a:hover {
 
 #Binair {
 text-align: center;
+background-image: url("Plaatjes/binary-2959615_1280-1024x682.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 #Kleurmodellen {
