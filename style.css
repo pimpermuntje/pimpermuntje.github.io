@@ -24,7 +24,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #ffffff;
+  background-color: #ffffff; /*maakt de kleur wit als je er met je muis over heen gaat*/
 }
 
 #Binair {
@@ -37,7 +37,7 @@ background-attachment: fixed;
 }
 
 #Kleurmodellen {
-  background-image: url("Plaatjes/CMYK-kleurmodel.webp");
+  background-image: url("Plaatjes/RGM_vs_CMYK_With_Ladybugs_1024x576.jpg");
   background-size: cover; /*zorgt ervoor dat het hele gevuld wordt met het plaatje*/
   background-position: center; /*centreert de positie van de afbeelding*/
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
