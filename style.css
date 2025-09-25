@@ -28,12 +28,12 @@ ul li a:hover {
 }
 
 #Binair {
-text-align: center;
-background-image: url("Plaatjes/binary-2959615_1280-1024x682.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  text-align: center;
+  background-image: url("Plaatjes/binary-2959615_1280-1024x682.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #Kleurmodellen {
@@ -42,4 +42,9 @@ background-attachment: fixed;
   background-position: center; /*centreert de positie van de afbeelding*/
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
   background-attachment: fixed;
+}
+
+#Compressie img {
+float: right;
+margin-left: 15px;
 }
