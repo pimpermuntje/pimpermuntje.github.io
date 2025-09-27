@@ -7,6 +7,7 @@ ul {
     list-style-type: none; /*zodat het geen opsomming wordt met bijvoorbeeld rondjes of sterretjes*/
     margin: 0; /*ruimte tussen de navigatiebar en de bovenkant van de pagina*/
     padding: 0; /*ruimte tussen de linkerkant van de pagina en de eerste knop*/
+    overflow: hidden; /*zodat er niet gescrolled kan worden naar de tekst*/
     background-color:rgb(30, 129, 176); /*kleur van de balk*/
 }
 
