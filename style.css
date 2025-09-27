@@ -13,6 +13,11 @@ ul {
 
 ul li {
     float: left; /*zorgt ervoor dat de knoppen links beginnen*/
+    border-right: 1px solid #bbbbbb; /*zorgt voor grenzen/streepjes tussen de knoppen van de navigatie bar*/
+}
+
+ul li:last-child {
+  border-right: none; /*zodat de laatste knop niet nog een rand krijgt aan de rechterkant*/
 }
 
 ul li a {
