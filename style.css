@@ -1,30 +1,33 @@
 body {
-    background-color:rgb(230, 208, 68);
-    color:rgb(0, 0, 0);
+    background-color:rgb(230, 208, 68); /*achtergrondkleur van de website*/
+    color:rgb(0, 0, 0); /*kleur van de tekst*/
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:rgb(30, 129, 176);
+    list-style-type: none; /*zodat het geen opsomming wordt met bijvoorbeeld rondjes of sterretjes*/
+    margin: 0; /*ruimte tussen de navigatiebar en de bovenkant van de pagina*/
+    padding: 0; /*ruimte tussen de linkerkant van de pagina en de eerste knop*/
+    background-color:rgb(30, 129, 176); /*kleur van de balk*/
 }
 
 ul li {
-    float: left;
+    float: left; /*zorgt ervoor dat de knoppen links beginnen*/
 }
 
 ul li a {
-  display: block;
-  color: rgb(116, 209, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block; /*maakt de vorm van de knoppen een blok/rechthoek*/
+  color: rgb(116, 209, 255); /*kleur van de tekst in de balk*/
+  text-align: center; /*laat de tekst in het midden van de knop staan*/
+  padding: 14px 16px; /*zorgt voor ruimte tussen, boven en onder de elementen*/
+  text-decoration: none; /*geen text decoratie*/
 }
 
 ul li a:hover {
   background-color: #ffffff; /*maakt de kleur wit als je er met je muis over heen gaat*/
+}
+
+ul li a.active {
+  background-color: #ffffff; /*maakt de knop van de pagina waar je op bent wit*/
 }
 
 #Binair {
@@ -41,10 +44,10 @@ ul li a:hover {
   background-size: cover; /*zorgt ervoor dat het hele gevuld wordt met het plaatje*/
   background-position: center; /*centreert de positie van de afbeelding*/
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
-  background-attachment: fixed;
+  background-attachment: fixed; /*zodat de achtergrond niet mee scrollt maar 'vast' zit*/
 }
 
 #Compressie img {
-float: right;
-margin-right: 15px;
+float: right; /*laat de afbeeldingen naar rechts drijven*/
+margin-right: 15px; /*zorgt voor wat ruimte tussen de plaatjes en de rechterkant*/
 }
