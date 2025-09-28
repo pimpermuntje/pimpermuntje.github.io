@@ -37,12 +37,7 @@ ul li a.active {
 }
 
 #Binair {
-  text-align: center;
-  background-image: url("Plaatjes/binary-2959615_1280-1024x682.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color:lightgreen;
 }
 
 #Kleurmodellen {
@@ -51,6 +46,11 @@ ul li a.active {
   background-position: center; /*centreert de positie van de afbeelding*/
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
   background-attachment: fixed; /*zodat de achtergrond niet mee scrollt maar 'vast' zit*/
+}
+
+#Kleurmodellen img {
+  float: right;
+  margin-right: 15px;
 }
 
 #Compressie img {
