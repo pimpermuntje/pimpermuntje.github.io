@@ -1,6 +1,5 @@
 body {
-    background-color:rgb(230, 208, 68); /*achtergrondkleur van de website*/
-    color:rgb(0, 0, 0); /*kleur van de tekst*/
+    color:rgb(0, 0, 0); /*kleur van de tekst op alle pagina's met deze stylesheet*/
 }
 
 ul {
@@ -46,6 +45,10 @@ ul li a.active {
   background-position: center; /*centreert de positie van de afbeelding*/
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
   background-attachment: fixed; /*zodat de achtergrond niet mee scrollt maar 'vast' zit*/
+}
+
+#Index {
+  background-color:yellow;
 }
 
 #Kleurmodellen img {
