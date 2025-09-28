@@ -48,15 +48,15 @@ ul li a.active {
 }
 
 #Index {
-  background-color:rgb(229, 229, 23);
+  background-color:rgb(255, 255, 84);
 }
 
 #Invoer {
-  background-color:rgb(207, 74, 145)
+  background-color:rgb(113, 238, 64)
 }
 
 #Compressie {
-  background-color:firebrick
+  background-color:rgb(255, 167, 73)
 }
 
 #Kleurmodellen img {
@@ -65,6 +65,15 @@ ul li a.active {
 }
 
 #Compressie img {
-float: right; /*laat de afbeeldingen naar rechts drijven*/
-margin-right: 15px; /*zorgt voor wat ruimte tussen de plaatjes en de rechterkant*/
+  float: right; /*laat de afbeeldingen naar rechts drijven*/
+  margin-right: 15px; /*zorgt voor wat ruimte tussen de plaatjes en de rechterkant*/
+}
+
+#Binair img {
+  float:right;
+}
+
+#Binair img {
+  float: right;
+  margin-right: 15px;
 }
