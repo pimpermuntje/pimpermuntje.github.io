@@ -48,7 +48,15 @@ ul li a.active {
 }
 
 #Index {
-  background-color:yellow;
+  background-color:rgb(229, 229, 23);
+}
+
+#Invoer {
+  background-color:rgb(207, 74, 145)
+}
+
+#Compressie {
+  background-color:firebrick
 }
 
 #Kleurmodellen img {
