@@ -48,11 +48,11 @@ ul li a.active {
 }
 
 #Index {
-  background-color:rgb(255, 255, 84);
+  background-color:rgb(255, 222, 59);
 }
 
 #Invoer {
-  background-color:rgb(113, 238, 64)
+  background-color:rgb(142, 238, 104)
 }
 
 #Compressie {
@@ -70,10 +70,11 @@ ul li a.active {
 }
 
 #Binair img {
-  float:right;
+  float: right;
+  margin-right: 15px;
 }
 
-#Binair img {
+#Invoer img {
   float: right;
   margin-right: 15px;
 }
