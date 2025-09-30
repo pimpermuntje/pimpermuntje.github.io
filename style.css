@@ -13,7 +13,6 @@ ul {
 ul li {
     float: left; /*zorgt ervoor dat de knoppen links beginnen*/
     border-right: 1px solid #bbbbbb; /*zorgt voor grenzen/streepjes tussen de knoppen van de navigatie bar*/
-    width: 20%;
 }
 
 ul li:last-child {
@@ -54,15 +53,6 @@ ul li a.active {
 
 #Invoer {
   background-color:rgb(252, 115, 218)
-}
-
-div.flex-container {
-  display: flex; /* Show the flex items horizontally */
-  flex-direction: row;
-}
-
-div.flex-container > div {
-  margin: 10px;
 }
 
 #Compressie {
