@@ -1,6 +1,6 @@
 body {
     color:rgb(0, 0, 0); /*kleur van de tekst op alle pagina's met deze stylesheet*/
-    font-size: 19px;
+    font-size: 18px; /*grootte van de tekst*/
   }
 
 ul {
@@ -39,7 +39,7 @@ ul li a.active {
 #Binair { /*hashtag *woord* laat je in je html refereren aan dit stuk html zodat dit gebruikt wordt voor de opmaak*/
   background-color:lightgreen;
   border-style: dotted; /*stelt de stijl van de randen in*/
-  border-color: rgb(50, 228, 235); /*stelt de kleur van de randen in*/
+  border-color: rgb(255, 255, 255); /*stelt de kleur van de randen in*/
   padding: 15px; /*stelt de ruimte tussen de rand en de elementen in*/
 }
 
@@ -118,6 +118,8 @@ h2.kleurtitel-cmyk {
 #Compressie img {
   float: right; /*laat de afbeeldingen naar rechts drijven*/
   margin-right: 15px; /*zorgt voor wat ruimte tussen de plaatjes en de rechterkant*/
+  border-style: dashed;
+  padding: 2px;
 }
 
 #Binair img {
@@ -128,6 +130,8 @@ h2.kleurtitel-cmyk {
 #Invoer img {
   float: right;
   margin-right: 15px;
+  border-style: dashed;
+  padding: 2px
 }
 
 #Index img {
@@ -135,9 +139,25 @@ h2.kleurtitel-cmyk {
   padding: 2px
 }
 
+.button {
+  background-color: rgb(22, 224, 150);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 8px;}
+
 footer {
   text-align: center;
   padding: 3px;
+  width: 40%;
   background-color:darksalmon;
   color: white;
 }
