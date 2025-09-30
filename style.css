@@ -5,7 +5,7 @@ body {
 
 ul {
     list-style-type: none; /*zodat het geen opsomming wordt met bijvoorbeeld rondjes of sterretjes*/
-    font-family: 'Brush Script MT'; /*lettertype*/
+    font-family: 'Brush Script MT', cursive; /*lettertype*/
     margin: 0; /*ruimte tussen de navigatiebar en de bovenkant van de pagina*/
     padding: 0; /*ruimte tussen de linkerkant van de pagina en het begin van de navigatiebar*/
     overflow: hidden; /*zodat er niet gescrolled kan worden naar de tekst*/
@@ -51,7 +51,7 @@ ul li a.active {
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
   background-attachment: fixed; /*zodat de achtergrond niet mee scrollt maar 'vast' zit*/
   border-style: dotted; /*stijl van de lijnen*/
-  border-color: rgb(43, 100, 247) rgb(255, 180, 42) rgb(255, 247, 28) rgb(77, 231, 26); /*kleur(en in dit geval) van de lijnen*/
+  border-color: rgb(43, 100, 247) rgb(255, 180, 42) rgb(255, 247, 28) rgb(77, 231, 26); /*kleur(en) van de lijnen*/
   padding: 15px; /*afstand tussen de lijn en de inhoud*/
 }
 
@@ -126,6 +126,8 @@ h2.kleurtitel-cmyk {
 #Binair img {
   float: right;
   margin-right: 15px;
+  border-style: inset;
+  padding: 1px
 }
 
 #Invoer img {
