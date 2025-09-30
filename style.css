@@ -52,12 +52,33 @@ ul li a.active {
 }
 
 #Invoer {
-  background-color:rgb(252, 115, 218)
+  background-color:rgb(252, 115, 218);
+  border-style: solid; 
+  border-color: rgb(112, 29, 101); 
+  float: left;
 }
 
 #Compressie {
   background-color:rgb(255, 167, 73)
 }
+
+h1.kleurtitel {
+  background-color: black;
+}
+
+.kleur-1 { color: #ff0000; } /* K */
+.kleur-2 { color: #ff7700; } /* l */
+.kleur-3 { color: #ffee00; } /* e */
+.kleur-4 { color: #99ff00; } /* u */
+.kleur-5 { color: #26ff00; } /* r */
+.kleur-6 { color: #00ff51; } /* m */
+.kleur-7 { color: #00ffc8; } /* o */
+.kleur-8 { color: #00c3ff; } /* d */
+.kleur-9 { color: #004cff; } /* e */
+.kleur-10 { color: #2a00ff; } /* l */
+.kleur-11 { color: #9d00ff; } /* l */
+.kleur-12 { color: #ff00ea; } /* e */
+.kleur-13 { color: #ff0073; } /* n */
 
 #Kleurmodellen img {
   float: right;
