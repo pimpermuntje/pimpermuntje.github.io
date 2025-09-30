@@ -1,6 +1,7 @@
 body {
     color:rgb(0, 0, 0); /*kleur van de tekst op alle pagina's met deze stylesheet*/
-}
+    font-size: 19px;
+  }
 
 ul {
     list-style-type: none; /*zodat het geen opsomming wordt met bijvoorbeeld rondjes of sterretjes*/
@@ -53,9 +54,8 @@ ul li a.active {
 
 #Invoer {
   background-color:rgb(252, 115, 218);
-  border-style: solid; 
-  border-color: rgb(112, 29, 101); 
-  float: left;
+  border-style: dotted; 
+  border-color: rgb(112, 29, 101);
 }
 
 #Compressie {
@@ -66,19 +66,36 @@ h1.kleurtitel {
   background-color: black;
 }
 
-.kleur-1 { color: #ff0000; } /* K */
-.kleur-2 { color: #ff7700; } /* l */
-.kleur-3 { color: #ffee00; } /* e */
-.kleur-4 { color: #99ff00; } /* u */
-.kleur-5 { color: #26ff00; } /* r */
-.kleur-6 { color: #00ff51; } /* m */
-.kleur-7 { color: #00ffc8; } /* o */
-.kleur-8 { color: #00c3ff; } /* d */
-.kleur-9 { color: #004cff; } /* e */
-.kleur-10 { color: #2a00ff; } /* l */
-.kleur-11 { color: #9d00ff; } /* l */
-.kleur-12 { color: #ff00ea; } /* e */
-.kleur-13 { color: #ff0073; } /* n */
+.kleur-1 { color: #ff0000; }
+.kleur-2 { color: #ff7700; }
+.kleur-3 { color: #ffee00; }
+.kleur-4 { color: #99ff00; }
+.kleur-5 { color: #26ff00; }
+.kleur-6 { color: #00ff51; }
+.kleur-7 { color: #00ffc8; }
+.kleur-8 { color: #00c3ff; }
+.kleur-9 { color: #004cff; }
+.kleur-10 { color: #2a00ff; }
+.kleur-11 { color: #9d00ff; }
+.kleur-12 { color: #ff00ea; }
+.kleur-13 { color: #ff0073; }
+
+h2.kleurtitel-rgb {
+  background-color: black;
+}
+
+.kleur-r { color: red; }
+.kleur-g { color: green; }
+.kleur-b { color: blue; }
+
+h2.kleurtitel-cmyk {
+  background-color: none;
+}
+
+.kleur-c { color: cyan; }
+.kleur-m { color: magenta; }
+.kleur-y { color: yellow; }
+.kleur-k { color: black; }
 
 #Kleurmodellen img {
   float: right;
