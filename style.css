@@ -52,6 +52,7 @@ ul li a.active {
   border-style: dotted; 
   border-color: rgb(43, 100, 247) rgb(255, 180, 42) rgb(255, 247, 28) rgb(77, 231, 26);
   padding: 15px;
+  font-family: 'Brush Script MT';
 }
 
 #Index {
@@ -79,19 +80,19 @@ h1.kleurtitel {
   background-color: none; /*hier moest iets staan omdat hij anders moeilijk deed :)*/
 }
 
-.kleur-1 { color: #ff0000; } /*deze hele constructie was om het kleurrijke tekstje op kleurmodellen te maken, je kan met het gebruik van deze class naar kleuren refereren zodat het die kleur wordt*/
-.kleur-2 { color: #ff7700; }
-.kleur-3 { color: #ffee00; }
-.kleur-4 { color: #99ff00; }
-.kleur-5 { color: #26ff00; }
-.kleur-6 { color: #00ff51; }
-.kleur-7 { color: #00ffc8; }
-.kleur-8 { color: #00c3ff; }
-.kleur-9 { color: #004cff; }
-.kleur-10 { color: #2a00ff; }
-.kleur-11 { color: #9d00ff; }
-.kleur-12 { color: #ff00ea; }
-.kleur-13 { color: #ff0073; }
+.kleur-1 { color: rgb(255, 0, 0); } /*deze hele constructie was om het kleurrijke tekstje op kleurmodellen te maken, je kan met het gebruik van deze class naar kleuren refereren zodat het die kleur wordt*/
+.kleur-2 { color: rgb(255, 119, 0); }
+.kleur-3 { color: rgb(255, 238, 0); }
+.kleur-4 { color: rgb(153, 255, 0); }
+.kleur-5 { color: rgb(38, 255, 0); }
+.kleur-6 { color: rgb(0, 255, 81); }
+.kleur-7 { color: rgb(0, 255, 200); }
+.kleur-8 { color: rgb(0, 195, 255); }
+.kleur-9 { color: rgb(0, 76, 255); }
+.kleur-10 { color: rgb(42, 0, 255); }
+.kleur-11 { color: rgb(157, 0, 255); }
+.kleur-12 { color: rgb(255, 0, 234); }
+.kleur-13 { color: rgb(255, 0, 115); }
 
 h2.kleurtitel-rgb {
   background-color: none;
@@ -153,11 +154,12 @@ h2.kleurtitel-cmyk {
 }
 
 .button1 {border-radius: 8px;}
+.button2 {border-radius: 50%;}
 
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 1px;
   width: 40%;
-  background-color:darksalmon;
+  background-color:rgb(255, 64, 0);
   color: white;
 }
