@@ -7,7 +7,7 @@ ul {
     list-style-type: none; /*zodat het geen opsomming wordt met bijvoorbeeld rondjes of sterretjes*/
     font-family: 'Brush Script MT', cursive; /*lettertype*/
     margin: 0; /*ruimte tussen de navigatiebar en de bovenkant van de pagina*/
-    padding: 0; /*ruimte tussen de linkerkant van de pagina en het begin van de navigatiebar*/
+    padding: 0; /*ruimte tussen het begin van de navigatiebalk aan de linkerkant van de pagina en de eerste knop*/
     overflow: hidden; /*zodat er niet gescrolled kan worden naar de tekst*/
     background-color:rgb(30, 129, 176); /*kleur van de balk*/
 }
@@ -25,7 +25,7 @@ ul li a {
   display: block; /*maakt de vorm van de knoppen een blok/rechthoek*/
   color: rgb(116, 209, 255); /*kleur van de tekst in de balk*/
   text-align: center; /*laat de tekst in het midden van de knop staan*/
-  padding: 14px 14px; /*zorgt voor ruimte tussen, boven en onder de tekst*/
+  padding: 14px 16px; /*zorgt voor ruimte tussen, boven en onder de tekst*/
   text-decoration: none; /*geen text decoratie*/
 }
 
