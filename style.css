@@ -56,6 +56,7 @@ ul li a.active {
   background-color:rgb(252, 115, 218);
   border-style: dotted; 
   border-color: rgb(112, 29, 101);
+  padding: 15px;
 }
 
 #Compressie {
@@ -63,7 +64,7 @@ ul li a.active {
 }
 
 h1.kleurtitel {
-  background-color: black;
+  background-color: none;
 }
 
 .kleur-1 { color: #ff0000; }
@@ -81,7 +82,7 @@ h1.kleurtitel {
 .kleur-13 { color: #ff0073; }
 
 h2.kleurtitel-rgb {
-  background-color: black;
+  background-color: none;
 }
 
 .kleur-r { color: red; }
