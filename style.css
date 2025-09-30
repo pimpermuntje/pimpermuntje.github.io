@@ -25,7 +25,7 @@ ul li a {
   display: block; /*maakt de vorm van de knoppen een blok/rechthoek*/
   color: rgb(116, 209, 255); /*kleur van de tekst in de balk*/
   text-align: center; /*laat de tekst in het midden van de knop staan*/
-  padding: 14px 16px; /*zorgt voor ruimte tussen, boven en onder de tekst*/
+  padding: 14px 14px; /*zorgt voor ruimte tussen, boven en onder de tekst*/
   text-decoration: none; /*geen text decoratie*/
 }
 
