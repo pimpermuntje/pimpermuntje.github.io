@@ -134,3 +134,10 @@ h2.kleurtitel-cmyk {
   border-style: double;
   padding: 2px
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:darksalmon;
+  color: white;
+}
