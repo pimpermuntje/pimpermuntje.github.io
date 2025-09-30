@@ -158,6 +158,7 @@ h2.kleurtitel-cmyk {
 
 footer {
   text-align: center;
+  margin: 0 auto;
   padding: 1px;
   width: 20%; /*wijdte van de footer*/
   background-color:rgb(255, 64, 0);
