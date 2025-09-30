@@ -36,8 +36,11 @@ ul li a.active {
   background-color: #ffffff; /*maakt de knop van de pagina waar je op bent wit*/
 }
 
-#Binair {
+#Binair { /*hashtag *woord* laat je in je html refereren aan dit stuk html zodat dit gebruikt wordt voor de opmaak*/
   background-color:lightgreen;
+  border-style: dotted; /*stelt de stijl van de randen in*/
+  border-color: rgb(50, 228, 235); /*stelt de kleur van de randen in*/
+  padding: 15px; /*stelt de ruimte tussen de rand en de elementen in*/
 }
 
 #Kleurmodellen {
@@ -46,10 +49,16 @@ ul li a.active {
   background-position: center; /*centreert de positie van de afbeelding*/
   background-repeat: no-repeat; /*herhaalt de afbeelding niet, zodat hij niet dubbel komt als je scrolt*/
   background-attachment: fixed; /*zodat de achtergrond niet mee scrollt maar 'vast' zit*/
+  border-style: dotted; 
+  border-color: rgb(43, 100, 247) rgb(255, 180, 42) rgb(255, 247, 28) rgb(77, 231, 26);
+  padding: 15px;
 }
 
 #Index {
   background-color:rgb(255, 222, 59);
+  border-style: dotted; 
+  border-color: rgb(255, 177, 59);
+  padding: 15px;
 }
 
 #Invoer {
@@ -60,14 +69,17 @@ ul li a.active {
 }
 
 #Compressie {
-  background-color:rgb(255, 167, 73)
+  background-color:rgb(255, 167, 73);
+  border-style: dotted; 
+  border-color: rgb(177, 11, 11);
+  padding: 15px;
 }
 
 h1.kleurtitel {
-  background-color: none;
+  background-color: none; /*hier moest iets staan omdat hij anders moeilijk deed :)*/
 }
 
-.kleur-1 { color: #ff0000; }
+.kleur-1 { color: #ff0000; } /*deze hele constructie was om het kleurrijke tekstje op kleurmodellen te maken, je kan met het gebruik van deze class naar kleuren refereren zodat het die kleur wordt*/
 .kleur-2 { color: #ff7700; }
 .kleur-3 { color: #ffee00; }
 .kleur-4 { color: #99ff00; }
@@ -116,4 +128,9 @@ h2.kleurtitel-cmyk {
 #Invoer img {
   float: right;
   margin-right: 15px;
+}
+
+#Index img {
+  border-style: double;
+  padding: 2px
 }
